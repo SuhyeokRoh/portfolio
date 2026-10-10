@@ -13,33 +13,6 @@ vercel.json         이미지 캐시 헤더 (Vercel 전용, 없어도 동작)
 .nojekyll           GitHub Pages 전용 (없어도 동작)
 ```
 
-## 배포
-
-### Vercel — 가장 간단
-
-1. [vercel.com](https://vercel.com) 로그인 → **Add New → Project**
-2. **Deploy without Git** 쪽에서 이 폴더를 통째로 드래그
-3. 바로 `https://<프로젝트이름>.vercel.app` 발급
-4. Settings → Domains 에서 주소를 `suhyeok-roh.vercel.app` 같은 걸로 변경 가능
-
-### Netlify — 계정 없이도 가능
-
-[app.netlify.com/drop](https://app.netlify.com/drop) 에 이 폴더를 드래그하면 즉시 링크가 나옵니다. 계정을 만들면 주소를 바꿀 수 있습니다.
-
-### GitHub Pages — 주소가 가장 깔끔
-
-```bash
-git init
-git add .
-git commit -m "portfolio"
-git branch -M main
-git remote add origin https://github.com/SuhyeokRoh/portfolio.git
-git push -u origin main
-```
-
-저장소 **Settings → Pages → Source: Deploy from a branch → main / (root)** 설정 후 1~2분 기다리면
-`https://suhyeokroh.github.io/portfolio` 로 열립니다.
-
 ## 조작
 
 | 동작 | 방법 |
